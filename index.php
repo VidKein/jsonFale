@@ -15,8 +15,6 @@
         var_dump($json);?>
     </pre>
     <?php
-    $text = file_get_contents('./pages_name.json');
-    $json = json_decode($text , true);
     $searchedProduct = 4;
     
     foreach ($json as &$nameProduct){
